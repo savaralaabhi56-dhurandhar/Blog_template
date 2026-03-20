@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Modern Portfolio</title>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+        background: #0f172a;
+        color: white;
+    }
+
+    header {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(135deg, #1e3a8a, #9333ea);
+        text-align: center;
+        animation: fadeIn 2s ease-in-out;
+    }
+
+    header h1 {
+        font-size: 3rem;
+    }
+
+    header p {
+        margin-top: 10px;
+        font-size: 1.2rem;
+        opacity: 0.8;
+    }
+
+    section {
+        padding: 60px 20px;
+        text-align: center;
+    }
+
+    h2 {
+        margin-bottom: 20px;
+        font-size: 2rem;
+        color: #38bdf8;
+    }
+
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .card {
+        background: #1e293b;
+        padding: 20px;
+        border-radius: 15px;
+        width: 250px;
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    }
+
+    .btn {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        background: #38bdf8;
+        color: black;
+        border-radius: 20px;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+
+    .btn:hover {
+        background: white;
+    }
+
+    footer {
+        text-align: center;
+        padding: 20px;
+        background: #020617;
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+        from {opacity: 0; transform: translateY(20px);}
+        to {opacity: 1; transform: translateY(0);}
+    }
+
+    .fade-up {
+        animation: fadeIn 1.5s ease-in-out;
+    }
+
+</style>
+</head>
+
+<body>
+
+<!-- Hero Section -->
+<header>
+    <h1>Hi, I'm Savarala Abhinav👋</h1>
+    <p>Frontend Developer | UI Designer| python full stack developer</p>
+    <a href="#projects" class="btn">View My Work</a>
+</header>
+
+<!-- About -->
+<section class="fade-up">
+    <h2>About Me</h2>
+    <p>I create beautiful and functional websites using modern UI design.Seeking a challenging position as a Python Full Stack Developer where I can utilize my skills in web development, backend programming, and problem-solving to build efficient, scalable applications while continuously learning and contributing to organizational growth.
+Motivated Python Full Stack Developer with a strong foundation in frontend and backend technologies, aiming to develop responsive, user-friendly web applications and deliver high-quality solutions that enhance user experience and business.
+Aspiring Web Developer passionate about Python and full stack technologies, seeking an opportunity to apply my technical knowledge, improve my development skills, and contribute to innovative projects in a dynamic environment.
+Recent graduate with a strong interest in Python Full Stack Development, looking for an entry-level role where I can apply my knowledge of web technologies, learn from experienced professionals, and contribute to real-world projects
+</p>
+</section>
+
+<!-- Projects -->
+<section id="projects" class="fade-up">
+    <h2>Projects</h2>
+    <div class="card-container">
+        <div class="card">
+            <h3>Employee Management System</h3>
+            <p>Motivated and detail-oriented aspiring Python Full Stack Developer with a strong foundation in Python, MySQL, and web technologies. Experienced in developing an Employee Management System using MySQL Connector with CRUD operations, showcasing skills in database management and application development. Seeking an entry-level opportunity to build scalable applications, enhance technical expertise, and contribute to organizational success. Aspiring Python Full Stack Developer with hands-on experience in building an Employee Management System using MySQL and CRUD operations, eager to develop efficient and user-friendly web applications
+Enthusiastic Web Developer with practical knowledge of Python and MySQL, having developed an Employee Management System implementing CRUD operations. Looking to apply my full stack development skills to create impactful and efficient software solutions.
+</p>
+        </div>
+        <div class="card">
+            <h3>Student Management System</h3>
+            <p>Motivated and detail-oriented aspiring Python Full Stack Developer with a strong foundation in Python, MySQL, and web development technologies. Experienced in building a Student Management System using MySQL Connector with CRUD operations, demonstrating practical knowledge of database management and application development. Seeking an entry-level opportunity to develop scalable web applications, enhance technical skills, and contribute to organizational success. Aspiring Python Full Stack Developer with hands-on experience in developing a Student Management System using MySQL and CRUD operations, eager to build efficient web applications and grow in a dynamic work environment.</p>
+        </div>
+        <div class="card">
+            <h3>School Filtering System</h3>
+            <p>Developed a School Filtering System using Artificial Intelligence and Machine Learning techniques to help users identify suitable schools based on various criteria such as location, performance, facilities, and user preferences. Implemented data preprocessing, feature selection, and predictive modeling to provide accurate and personalized recommendations. The system improves decision-making by analyzing large datasets and delivering efficient, data-driven results.</p>
+        </div>
+        <div class="card">
+         <h3>Face-Recognition using Open-cv</h3>
+         <p>Developed a Face Recognition System using OpenCV and Python to detect and recognize human faces in real-time. Implemented image processing techniques and machine learning algorithms for accurate face detection and identification. Utilized pre-trained models and trained datasets to improve recognition accuracy. The system can be applied in security systems, attendance tracking, and identity verification, enhancing automation and reliability.</p>
+         </div>
+    </div>
+</section>
+
+<!-- Skills -->
+<section class="fade-up">
+    <h2>Skills</h2>
+    <div class="card-container">
+        <div class="card">HTML</div>
+        <div class="card">CSS</div>
+        <div class="card">JavaScript</div>
+        <div class="card">Node-Js</div>
+        <div class="card">Mongo-db</div>
+        <div class="card">MySQL</div>
+        <div class="card">JavaScript</div>
+        <div class="card">Customer support</div>
+        <div class="card">Service-now</div>
+        <div class="card">DBMS</div>
+        <div class="card">Cybersecurity & Ai</div>
+        <div class="card">Vs Code</div>
+        <div class="card">django</div>
+        <div class="card">Flask</div>
+        <div class="card">Tkinter</div>
+        <div class="card">mysql connection with python & OracleCx connection with python</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+</section>
+
+<!-- Contact -->
+<section class="fade-up">
+    <h2>Contact</h2>
+    <p>Email:savaralaabhi56@gmail.com.com</p>
+    <a href="#" class="btn">Hire Me</a>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>© 2026 Savarala Abhinav</p>
+</footer>
+
+</body>
+</html>
